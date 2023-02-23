@@ -6,8 +6,6 @@ const main = async () => {
 
     console.log('Donation contract address : ', donationContract.address);
 
-    return donationContract;
-
 }
 
 const run = async () => {
