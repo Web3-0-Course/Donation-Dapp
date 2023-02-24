@@ -5,10 +5,10 @@ const main = async () => {
     await donationContract.deployed();
 
     console.log('Donation contract address : ', donationContract.address);
-
+    console.log()
 }
 
-const run = async () => {
+const runMain = async () => {
     try {
         await main();
         process.exit(0);
